@@ -44,6 +44,11 @@
 .d{
     grid-area: d;
     background: gray;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .e{
