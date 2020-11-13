@@ -53,7 +53,13 @@
                     echo("</table>");
                 ?>
         </div>
-        <div class="item d"></div>
+        <div class="item d">
+            <form action="insert.php" method="post">
+                <input type="text" name="id_autor" placeholder="Autor">
+                <input type="text" name="id_tytul" placeholder="Tytul">
+                <input type='submit' value='Dodaj'>
+            </form>
+        </div>
         <div class="item e"></div>
     </div>
 </body>
